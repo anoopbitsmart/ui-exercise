@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>valtech-uk</title>
+    <meta charset="utf-8" />
+    <!--Bootstrap 3 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework.
+        To ensure proper rendering and touch zooming, add the following <meta> tag inside the <head> element:-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/test.css" />
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Valtech-UK</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a id="menu-toggle">Side Bar</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section class="content col-xs-9">
+            <div class="row photo-gallery">
+            </div>
+        </section>
+        <aside class="sidebar col-xs-3" id="sidebar">
+            <div class="row">
+                <ul id="list" class="nav nav-pills nav-stacked">
+                    <!--HTML Markup for Side Bar-->
+                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span>  Email</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-comment"></span>  Chat</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>  Call</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer container-fluid">
+        <p class="text-muted">&copy; Valtech-UK. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/test.js"></script>
+
+</body>
+</html>
