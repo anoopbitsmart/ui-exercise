@@ -6,6 +6,7 @@
 
 (function pushImages() {
     //json array of images    
+    //as images were not supplied,I have chosen one from the internet to showcase.
     var images = [{ url: "audicity.jpg", title: "Audi City", caption: "How to purchase a real car in virtual store" }, { url: "audicity.jpg", title: "Audi City", caption: "How to purchase a real car in virtual store" }, { url: "audicity.jpg", title: "Audi City", caption: "How to purchase a real car in virtual store" }, { url: "audicity.jpg", title: "Audi City", caption: "How to purchase a real car in virtual store" }, { url: "audicity.jpg", title: "Audi City", caption: "How to purchase a real car in virtual store" }, { url: "audicity.jpg", title: "Audi City", caption: "How to purchase a real car in virtual store" }];
     for (var i = 0; i < images.length; i++) {
         //push the image to the markUp
