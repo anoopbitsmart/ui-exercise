@@ -1,0 +1,54 @@
+﻿.sidebar {
+    width: 30%;
+}
+
+.content {
+    width: 70%;
+}
+
+.thumbnail {
+    border: 0 none;
+    }
+
+.caption
+{
+    font-weight:bold;
+    color:black;
+    text-align:left;
+
+}
+
+.self-contained {
+    color:black;
+    text-align:left;
+}
+
+/*Custom CSS Code for Bootstrap Vertical Side Bar*/
+#list {
+    background-color: #191919;
+    
+    
+}
+
+#list a:hover, a:focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#list.nav > li > a,
+#list.nav > li > a:link {
+    background-color: #191919;
+    color: #FFF;
+}
+
+#list.nav > li > a:hover,
+#list.nav > li > a:focus {
+    background-color: #373737;
+}
+
+#list.nav-pills > li.active > a,
+#list.nav-pills > li.active > a:hover,
+#list.nav-pills > li.active > a:focus {
+    color: #FFF;
+    background-color: #C72A25;
+}
